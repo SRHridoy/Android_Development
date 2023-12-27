@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Email Us</string>
+    <string name="how">\n
+        Available on docs :\n
+        //Implicit intent to send Email:\n
+                String[] addresses = {"sohanurrahmanhridoy007@gmail.com","ridoyking1234@gmail.com"};\n
+                Intent intent = new Intent(Intent.ACTION_SEND);\n
+                intent.setType("*/*");\n
+                intent.putExtra(Intent.EXTRA_EMAIL, addresses);\n
+                intent.putExtra(Intent.EXTRA_SUBJECT, "Implicit intent example on Email sending!");\n
+                //intent.putExtra(Intent.EXTRA_STREAM, attachment);\n
+                if (intent.resolveActivity(getPackageManager()) != null) {\n
+                    startActivity(intent);\n
+                }\n
+    </string>
+</resources>

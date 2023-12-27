@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Intent Passing Example</string>
+    <string name="intent">We can move one activity to another using :\npublic void onClick(View v) {\n                Intent inNext;\n                //kothai theke jabo kothai jabo...\n                inNext = new Intent(MainActivity.this,SecondActivity.class);\n                //Function is must:\n                startActivity(inNext);\n            }</string>
+</resources>

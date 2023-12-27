@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Multi Screen App</string>
+    <string name="name">"Enter Your Name "</string>
+    <string name="how">
+        \n
+        In MainActivity.java\n public void openActivity(View v){
+        \n
+        Toast.makeText(this, "Opening Second Activity", Toast.LENGTH_SHORT).show();
+        \n
+        //Crating Intent:
+        \n
+        Intent intent = new Intent(this,MainActivity2.class);\n
+
+        //Passing Data :\n
+        String nameText = name.getText().toString();\n
+        intent.putExtra(EXTRA_NAME, nameText);\n
+
+        startActivity(intent);\n
+    }\n
+
+        //getting data :\n
+        Intent intent = getIntent();\n
+        String name = intent.getStringExtra("name");\n
+        textView.setText("Your name is : " + name);\n
+
+    </string>
+</resources>

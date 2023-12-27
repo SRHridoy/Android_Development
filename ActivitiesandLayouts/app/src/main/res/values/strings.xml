@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Activities and Layouts</string>
+    <string name="About">About Page</string>
+    <string name="AboutUs">I am Hridoy, I am a CSE undergrade Student and I am Interested in Android Devlopment\n</string>
+    <string name="input">Enter Your Name\n</string>
+    <string name="Contract">Contract Us\n</string>
+</resources>

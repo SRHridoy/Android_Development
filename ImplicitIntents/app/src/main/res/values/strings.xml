@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Implicit Intents</string>
+    <string name="how">\n
+        Implicit intent to open a web browser :\n
+        button.setOnClickListener(new View.OnClickListener() {\n
+            @Override\n
+            public void onClick(View v) {\n
+                String url = editText.getText().toString();\n
+                Intent i = new Intent(Intent.ACTION_VIEW);\n
+                i.setData(Uri.parse(url));\n
+                startActivity(i);\n
+            }\n
+        });\n
+    </string>
+</resources>

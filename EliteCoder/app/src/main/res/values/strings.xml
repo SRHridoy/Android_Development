@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Elite Coder</string>
+    <string name="name">Md. Sohanur Rahman Hridoy</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="bio">Android Developer | Passionate Programmer | ML Enthusiast</string>
+    <string name="email">Email :</string>
+    <string name="mail">sohanurrahmanhridoy007@gmail.com</string>
+    <string name="phone_no">Phone no:</string>
+    <string name="phn">01724611873</string>
+    <string name="location">Location :</string>
+    <string name="raj">Rajshahi, Bangladesh</string>
+    <string name="github">Github :</string>
+    <string name="srhridoy">SRHridoy</string>
+    <string name="linkedin">LinkedIn :</string>
+    <string name="link">md-sohanur-rahman-hridoy-2385ab257/</string>
+    <string name="c_c_java_python">C, C++, Java, Python</string>
+    <string name="facebook">Facebook :</string>
+    <string name="fb">clasher007</string>
+    <string name="technology">IDES:</string>
+    <string name="android_studio_vscode_intellij_pycharm">Android Studio, VsCode, IntelliJ, Pycharm</string>
+    <string name="share">Share</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bundle(Data)passing Between Acitivity Using intent</string>
+    <string name="txt1">To pass data first of all we have to create another activity and then we have to create intent obj and call start method</string>
+    <string name="use">Small small data pass koranor jonne ...Instant jekono data...\n\n</string>
+</resources>
