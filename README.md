@@ -453,7 +453,59 @@ Then this :
 
 
 
+## Making Gradiant and button :
 
+custom_button_file
+```java
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <solid android:color="#4CAF50"/>-->
+    <stroke android:color="#000000"
+        android:width="1dp"/>
+    <padding android:right="10dp" android:left="10dp" android:bottom="2dp" android:top="2dp"/>
+    <corners android:radius="35dp"/>
+
+    <gradient
+        android:startColor="#E91E63"
+        android:endColor="#FFEB3B"
+        android:centerColor="#CDDC39"
+        android:type="linear"
+        />
+</shape>
+```
+custom_button_states :
+```java
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#2196F3"/>
+            <corners android:radius="30dp"/>
+            <stroke android:color="@color/edit_text_border_color" android:width="2dp"/>
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/edit_text_background_color"/>
+            <stroke android:color="@color/edit_text_border_color" android:width="2dp"/>
+        </shape>
+    </item>
+    <item android:state_enabled="true" android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/edit_text_background_color"/>
+            <stroke android:color="@color/edit_text_border_color" android:width="2dp"/>
+        </shape>
+    </item>
+    <item android:state_enabled="true" android:drawable="@drawable/custon_button">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/edit_text_background_color"/>
+            <stroke android:color="@color/edit_text_border_color" android:width="2dp"/>
+
+        </shape>
+    </item>
+</selector>
+```
 
 
 
@@ -488,7 +540,3 @@ StringBuilder stringBuilder = new StringBuilder();
     }
 ```
 
-
-#   A n d r o i d _ D e v e l o p m e n t 
- 
- 

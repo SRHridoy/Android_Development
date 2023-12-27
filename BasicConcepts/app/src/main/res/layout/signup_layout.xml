@@ -34,7 +34,7 @@
         android:text="Name" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -56,7 +56,7 @@
         android:text="Email" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -76,7 +76,7 @@
         android:text="Password" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -96,7 +96,7 @@
         android:text="Write something about yourself" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/about"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
@@ -116,20 +116,21 @@
         android:text="Select Gender" />
 
     <RadioGroup
+        android:id="@+id/gender"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Male" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/female"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -137,7 +138,7 @@
             android:text="Female" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/other"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -159,21 +160,21 @@
         android:orientation="horizontal">
 
         <CheckBox
-            android:id="@+id/checkBox3"
+            android:id="@+id/java"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Java" />
 
         <CheckBox
-            android:id="@+id/checkBox4"
+            android:id="@+id/python"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Python" />
 
         <CheckBox
-            android:id="@+id/checkBox6"
+            android:id="@+id/cpp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -189,20 +190,22 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonSignUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:backgroundTint="#4CAF50"
-            android:text="Signup" />
+            android:text="Signup"
+            />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonClear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="#E91E63"
-            android:text="Clear" />
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:text="Clear"
+
+            />
     </LinearLayout>
 </LinearLayout>
